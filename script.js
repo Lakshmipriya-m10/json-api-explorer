@@ -1,7 +1,7 @@
 
 const fetchButton = document.getElementById("fetchButton");
-const submitPost = document.getElementById("postForm")
-const successPost = document.getElementById("formSuccess")
+const submitPost = document.getElementById("postForm");
+const successPost = document.getElementById("formSuccess");
 
 submitPost.addEventListener("submit", function (event) {
     event.preventDefault();
